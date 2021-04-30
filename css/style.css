@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+
+/* main css */
+
+.header{
+    background: #FFFBF0;
+    overflow: hidden;
+}
+.header img{
+    max-width:200px;
+}
+
+.toogle-sign{
+    background: #A4BC46;
+     border:2px solid #A4BC46;
+     border-radius:3px;
+ }
+ .toggle{
+    color:#fff;
+ }
+ .menu a{
+     font-weight: 500;
+     font-size: 13px;
+     color:#111;
+ }
+
+
+
+.header-bottom{
+    padding-bottom:25px;
+}
+.header-bottom h1{
+    font-family:'Antonio';
+    font-weight: 600;
+    padding-top:20px
+}
+.color-head{
+    color:#FABE4C
+}
+.butt-color{
+    background-color: #A4BC46;
+    border:1px solid #A4BC46;
+    font-size: 13px;
+    color:#fff;
+    font-weight: 500;
+}
+
+/* woman jacket section  */
+
+.woman-jacket h3,.man-jacket h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Antonio';
+}
+
+
+.card-box h5{
+    font-size: 16px;
+}
+  .card-pic {
+    background-color: #eee;
+    width:90%;
+    height: auto;
+    border-radius:5px;
+    margin:14px auto;
+    text-align: center;
+  }
+  .card-pic img{
+      padding:15px;
+      height:200px;
+
+  }
+  .card-box {
+      border:none;
+  }
+  .c-foot {
+      background: none;
+      border-top:none;
+  }
+.digit{
+    font-size: 26px;
+    font-weight: bold;
+    color:#FABE4C;
+}
+
+
+/* shopping section */
+
+.left-card{
+    border:none;
+}
+.shop-card img{
+    width:90px;
+    height:auto;
+    
+}
+
+/* footer section  */
+
+.footer-top{
+    color:#ccc;
+    background: #262626;
+}
+
+
+.social i{
+    font-size: 22px;
+    margin:5px 7px;
+    color:#ccc;
+}
+.search-box input[type=text]{
+    background:#262626;
+    border:none;
+    box-shadow:1px 1px 20px #000
+}
+.search-btn{
+    color:#eee;
+    background:#262626;
+    border:none;
+    box-shadow:1px 1px 20px #000
+}
+
+.list-class li{
+    border:none;
+    padding:5px 0;
+    font-size:13px;
+    background:none;
+}
+.footer{
+    background: #000;
+}
+.footer p{
+    margin-top: 10px;
+}
+
+
+
+
+/* media query  */
+/* according to chrome browser's responsive scale*/
+
+/* for small devices */
+
+@media (min-width:786px) and (max-width:991.98px){
+
+   
+    .left-heading h5{
+        font-size: 15px;
+        margin-bottom:5px;
+    }
+    
+
+}
+
+
+/* for extra small devices  */
+
+@media (min-width:320px) and (max-width:575.98px){
+
+
+
+    .shop-card {
+        text-align: center;
+        padding:5px 0;
+    }
+    .footer-col{
+        padding-top:20px
+    }
+
+}
